@@ -22,6 +22,10 @@ class App extends Component {
       {
         id: 4,
         text: 'I have a pair of Jordan 11'
+      },
+      {
+        id: 5,
+        text: 'I have a pair of Jordan 5'
       }
     ]
   }
