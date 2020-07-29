@@ -1,4 +1,4 @@
-@import'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js';
+@import'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css';
 
 .wrap{
   border: thin lightgray solid;
@@ -26,13 +26,6 @@ input[type=checkbox]{
   zoom: 2;
 }
 
-/* i{
-  color: rgb(235, 109, 25);
-  font-size: 5em;
-  border: thin red solid;
-  float: right;
-} */
-
 .one{
   display: flex;
   justify-content: space-between;
@@ -45,10 +38,9 @@ input[type=checkbox]{
 
 i{
   flex: 0 0 10%;
-  color: rgb(235, 109, 25);
-  font-size: 3em;
-  border: thin red solid;
-  /* float: right; */
+  color: red;
+  font-size: 2em;
+  /* border: thin red solid; */
 }
 
 .two{

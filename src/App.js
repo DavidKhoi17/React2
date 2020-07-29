@@ -76,7 +76,7 @@ class App extends Component {
             <form action="#">
                 <div className="note btn">
                   <input type="text" className="form-control" id="note-input" value={this.state.noteInputValue} onChange={this.handleNoteInputChange}/>
-                  <button type="submit" className="btn btn-primary" onClick={this.handleAddBtn}>Done</button>
+                  <button type="submit" className="btn btn-primary" onClick={this.handleAddBtn}>Add</button>
                 </div>
             </form>
           </div>
