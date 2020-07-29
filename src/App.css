@@ -1,3 +1,5 @@
+@import'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js';
+
 .wrap{
   border: thin lightgray solid;
   border-radius: 1.5em;
@@ -24,11 +26,29 @@ input[type=checkbox]{
   zoom: 2;
 }
 
-i{
+/* i{
   color: rgb(235, 109, 25);
   font-size: 5em;
   border: thin red solid;
   float: right;
+} */
+
+.one{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+
+.text{
+  flex: 0 0 50%;
+}
+
+i{
+  flex: 0 0 10%;
+  color: rgb(235, 109, 25);
+  font-size: 3em;
+  border: thin red solid;
+  /* float: right; */
 }
 
 .two{
@@ -42,7 +62,4 @@ i{
   color: white;
   margin-left: 1em;
   font-size: 1em;
-  /* margin-top: 1em; */
-  /* display: block;
-  margin: auto; */
 }

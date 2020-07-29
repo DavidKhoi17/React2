@@ -10,28 +10,16 @@ class App extends Component {
       notes: [
         {
           id: 1,
-          text: 'I have a pair of Jordan 1'
+          text: 'Jordan 1'
         },
         {
           id: 2,
-          text: 'I have a pair of Jordan 3'
+          text: 'Jordan 3'
         },
         {
           id: 3,
-          text: 'I have a pair of Jordan 4'
+          text: 'Jordan 4'
         },
-        {
-          id: 4,
-          text: 'I have a pair of Jordan 11'
-        },
-        {
-          id: 5,
-          text: 'I have a pair of Jordan 5'
-        },
-        {
-          id: 6,
-          text: 'I have a pair of AF1 ParaNoise'
-        }
       ],
       noteInputValue: ''
     }
@@ -76,9 +64,11 @@ class App extends Component {
               this.state.notes.map((note)=>{
                 return(
                   <div className="note one" key={note.id}>
-                    <i id={note.id} className="far fa-times-circle note-remove" onClick={this.handleNoteDelete}></i>
-                    <input type="checkbox" id="first" name="first"></input>
-                    <label for="first">{note.text}</label>
+                    <div class="text">
+                      <input type="checkbox" id="first" name="first"></input>
+                      <label for="first">{note.text}</label>
+                    </div>
+                    <i id={note.id} className="fas fa-trash-alt" onClick={this.handleNoteDelete}></i>
                 </div>
                 )
               })
